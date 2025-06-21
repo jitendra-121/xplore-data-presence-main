@@ -1,6 +1,6 @@
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Github, Linkedin, Mail } from "lucide-react";
-import profilePic from '/public/lovable-uploads/5b7502da-a465-4d09-8179-f3883bbb3e61.jpg';
+import profilePic from '/lovable-uploads/5b7502da-a465-4d09-8179-f3883bbb3e61.jpg';
 
 const About = () => {
   return (

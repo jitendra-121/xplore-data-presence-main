@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import heroBanner from '/public/lovable-uploads/70462249-80ef-436b-9dc2-63c2011e903f.png';
+import heroBanner from '/lovable-uploads/70462249-80ef-436b-9dc2-63c2011e903f.png';
 
 const Hero = () => {
   const [isLoaded, setIsLoaded] = useState(false);
