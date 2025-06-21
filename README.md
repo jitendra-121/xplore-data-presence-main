@@ -1,4 +1,35 @@
-# Welcome to your Lovable project
+# xplore-data-presence-main
+
+A modern portfolio website built with React, Vite, TypeScript, and Tailwind CSS. Features a responsive design with beautiful UI components using shadcn/ui.
+
+## Features
+
+- 🎨 Modern and responsive design
+- ⚡ Built with Vite for fast development
+- 🎯 TypeScript for type safety
+- 🎨 Tailwind CSS for styling
+- 📱 Mobile-friendly interface
+- 🚀 Deployed on GitHub Pages
+
+## Tech Stack
+
+- React 18
+- Vite
+- TypeScript
+- Tailwind CSS
+- shadcn/ui components
+- React Router DOM
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start development server: `npm run dev`
+4. Build for production: `npm run build`
+
+## Deployment
+
+This project is automatically deployed to GitHub Pages using GitHub Actions. The site is available at: https://jitendra-121.github.io/xplore-data-presence-main/
 
 ## Project info
 
