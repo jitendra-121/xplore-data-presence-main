@@ -21,13 +21,11 @@ const Hero = () => {
   return (
     <section id="home" className="relative min-h-screen flex flex-col justify-center items-center text-center text-white overflow-hidden">
       {/* Background Image */}
-      <div className="absolute top-0 left-0 w-full h-full z-0">
-        <img 
-          src={heroBanner} 
-          alt="Crafting AI-Driven Solutions for a Better World" 
-          className="w-full h-full object-cover"
-        />
-      </div>
+      <div 
+        className="absolute top-0 left-0 w-full h-full z-0 bg-cover bg-center"
+        style={{ backgroundImage: `url(${heroBanner})` }}
+        aria-label="Crafting AI-Driven Solutions for a Better World"
+      ></div>
 
       {/* Overlay */}
       <div className="absolute top-0 left-0 w-full h-full bg-black/50 z-10"></div>
