@@ -1,5 +1,6 @@
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Github, Linkedin, Mail } from "lucide-react";
+import profilePic from '/public/lovable-uploads/5b7502da-a465-4d09-8179-f3883bbb3e61.jpg';
 
 const About = () => {
   return (
@@ -21,7 +22,7 @@ const About = () => {
               </a>
             </div>
             <Avatar className="w-48 h-48 border-4 border-primary/50 shadow-2xl">
-              <AvatarImage alt="Jitendra Chowdary Aluri" src="/lovable-uploads/5b7502da-a465-4d09-8179-f3883bbb3e61.jpg" className="object-cover" />
+              <AvatarImage alt="Jitendra Chowdary Aluri" src={profilePic} className="object-cover" />
               <AvatarFallback className="bg-gradient-to-br from-primary to-secondary text-white text-xl">JCA</AvatarFallback>
             </Avatar>
           </div>

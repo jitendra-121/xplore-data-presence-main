@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import heroBanner from '/public/lovable-uploads/70462249-80ef-436b-9dc2-63c2011e903f.png';
 
 const Hero = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -22,7 +23,7 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute top-0 left-0 w-full h-full z-0">
         <img 
-          src="/lovable-uploads/70462249-80ef-436b-9dc2-63c2011e903f.png" 
+          src={heroBanner} 
           alt="Crafting AI-Driven Solutions for a Better World" 
           className="w-full h-full object-cover"
         />
